@@ -42,7 +42,7 @@ public class GetIdFuncao {
     	String retorno="";
 //    	try{
 		for(;indice<=indiceFinal;indice++){
-			retorno += get("--linkprivado--"+arrayNomeCargo[indice], arrayNomeCargo[indice]);
+			retorno += get("-linkPrivado-"+arrayNomeCargo[indice], arrayNomeCargo[indice]);
 		}
 //    	}catch(Exception e){
 //    		System.out.println(numeroThread + " "+ indiceFinal+" "+indice);
@@ -91,19 +91,6 @@ public class GetIdFuncao {
 //    	threadFinal.start();
 //	}
     
-//    public static void main(String[] arg) {
-//    	try {
-//    		for(String nomeCargo : arrayNomeCargo){
-//    			get("http://www.salariobr.com/PesquisaSalarialPorPorte?funcao="+nomeCargo, nomeCargo);
-//    		}
-////			get("http://www.salariobr.com/PesquisaSalarialPorPorte?funcao=Abatedor");
-////			get("http://www.salariobr.com/PesquisaSalarialPorPorte?funcao=Acafelador");
-//			printarTexto(textoidFuncao,"filename.txt");
-//			
-//		} catch (Exception e) {
-//			e.printStackTrace();
-//		}
-//    }
     
     
     private static String[] arrayNomeCargo= {"Abastecedor",
