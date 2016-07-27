@@ -1,4 +1,4 @@
-package org.wiztools.jwget;
+package rslgp;
 
 import java.io.IOException;
 import java.io.InputStream;
