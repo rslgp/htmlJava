@@ -42,7 +42,7 @@ public class Cargos {
     	String retorno="";
 //    	try{
 		for(;indice<=indiceFinal;indice++){
-			retorno += get("http://www.salariobr.com/PesquisaSalarialPorPorte?funcao="+arrayNomeCargo[indice], arrayNomeCargo[indice]);
+			retorno += get("--linkprivado--"+arrayNomeCargo[indice], arrayNomeCargo[indice]);
 		}
 //    	}catch(Exception e){
 //    		System.out.println(numeroThread + " "+ indiceFinal+" "+indice);
