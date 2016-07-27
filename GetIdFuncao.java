@@ -7,7 +7,7 @@ import java.net.URL;
 
 import org.jsoup.Jsoup;
 
-public class Cargos {
+public class GetIdFuncao {
 	private static String textoidFuncao="";
 	
 	private static void printarTexto(String text, String arquivo) throws Exception{
