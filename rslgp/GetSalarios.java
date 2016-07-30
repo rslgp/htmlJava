@@ -20,7 +20,7 @@ public class GetSalarios {
     private static void loadProperties(){
     	Properties prop = new Properties();
 		try {
-			prop.load(new FileInputStream("./config.properties"));
+			prop.load(new FileInputStream("./src/rslgp/config.properties"));
 			
 		} catch (IOException e) {e.printStackTrace();}
 

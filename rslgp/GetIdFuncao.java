@@ -18,7 +18,7 @@ public class GetIdFuncao {
     private static void loadProperties(){
     	Properties prop = new Properties();
 		try {
-			prop.load(new FileInputStream("./configOld.properties"));
+			prop.load(new FileInputStream("./src/rslgp/configOld.properties"));
 			
 		} catch (IOException e) {e.printStackTrace();}
 
